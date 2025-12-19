@@ -147,7 +147,7 @@ while running:
     draw_decorations(frame)
     draw_ribbons(frame)  
     glowing_text("Happy Birthday", 150, frame)
-    draw_text("Jumanah 19/December", small_font, GOLD, width//2 - 160, 230)
+    draw_text("Jumanah 31/December", small_font, GOLD, width//2 - 160, 230)
     draw_cake()
     for candle in candles:
         candle.draw(frame)
